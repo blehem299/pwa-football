@@ -7,7 +7,7 @@ else
 
 // precache
 workbox.precaching.precacheAndRoute([
-    { url: 'index.html', revision: '1' },
+    { url: 'index.html', revision: '2' },
     { url: 'nav.html', revision: '1' },
     { url: 'assets/css/style.css', revision: '1' },
     { url: 'assets/css/animate.css', revision: '1' },
