@@ -1,0 +1,27 @@
+{
+    "name": "Runner Champions League",
+    "short_name": "Runner CL",
+    "description": "Memberikan Informasi Terupdate Mengenai Champions League Dengan Tim Favorit Anda.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#eceff1",
+    "theme_color": "#eceff1",
+    "icons": [
+        {
+            "src": "assets/img/icon_.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/icon_1.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "gcm_sender": [
+        {
+            "name": "Push Notification FCM",
+            "gcm_sender_id": "256098475565"
+        }
+    ]
+}

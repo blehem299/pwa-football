@@ -1,0 +1,104 @@
+.container { width: 85%; }
+.circle { height: 10.5em;width: 10.5em;clear: both; }
+.no-padd { padding: 0 !important; }
+.header-page { position: relative;color: #263238;margin-bottom: 1em; }
+.header-page:after { 
+	content:'';
+	position: absolute;
+	width: 8em;
+	height: 0.125em;
+	background: #607d8b;
+	left: 0;
+	top: 1.25em;
+	border-radius: 10em;
+}
+._b:after { 
+	content:'';
+	width: 4.5em;
+}
+._c:after { 
+	content:'';
+	width: 8em;
+}
+.logo-team { height: 3em; }
+
+.loading { overflow: hidden;height: 27em; }
+.preloader-background {	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	z-index: 999;
+	position: absolute;
+	height: 100%;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0; 
+}
+
+.preloader-background p {
+  padding-top:120px;
+  margin-left: -60px;
+  opacity: 0.8;
+}
+
+.blinking {
+  animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+/*.img_def { background-image: url('../img/flag.png'); }*/
+/*.img-logo { display: block;margin: 0 auto; }*/
+
+.parallax-container { height: 375px;margin-top: -64px; }
+.parallax-container .section { 
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	/*margin-top: -100px;*/
+}
+.parallax-container .section .container {
+	padding-top: 85px;
+}
+.parallax-container .section .container p {
+	width: 45%;
+}
+.parallax-container .section .container .btn-flat,#about .btn-flat {
+	border : 1px solid #f5f5f5;
+	border-radius: 4px;
+}
+
+.parallax-container .section .container .btn-flat:hover, #about .btn-flat:hover {
+	background-color: rgba(96,125,139,0.25);
+}
+
+#body-content { padding-top: 1em;padding-bottom: 1em; }
+
+.main-card { padding: 4em 0em; }
+.main-card { padding-bottom: 2em; }
+.main-card .card-panel { border-radius: 10px; }
+.main-card .card-panel .card-img { height: 70px; }
+
+.main-card .card-panel .card-img .circle {
+	position: relative;
+	top: -100px;
+	display: block;
+	margin: 0 auto;
+}
+/*.main-card .card-panel .card-img .circle.team_ {
+	padding-left: 1.1em;
+}*/
+.main-card .card-panel .card-img .circle img { height: 10.5em; }
+
+.main-card .card-panel .card-desc { width: 100%;display: block;text-align: center; }
+.main-card .card-panel .card-desc .card-title 
+{ 
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+
+.main-card .card-panel .card-desc p { padding-left: 0.5em;padding-right: 0.5em;text-align: justify;text-align-last: center; }
