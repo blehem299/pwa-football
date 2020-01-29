@@ -15,7 +15,7 @@ workbox.precaching.precacheAndRoute([
     { url: 'assets/js/materialize.min.js', revision: '1' },
     { url: 'assets/js/jquery.min.js', revision: '1' },
     { url: 'assets/js/nav.js', revision: '1' },
-    { url: 'assets/js/api.js', revision: '5' },
+    { url: 'assets/js/api.js', revision: '6' },
     { url: 'assets/js/loadSw.js', revision: '1' },
     { url: 'assets/lib/idb.js', revision: '1' },
     { url: 'assets/lib/db.js', revision: '1' },

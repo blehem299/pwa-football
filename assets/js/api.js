@@ -44,7 +44,7 @@ function getStandings() {
               <tr>
                 <td class="center-align">${standing.position}</td>
                 <td class="center-align">
-                  <img src="${team_badge}" class="logo-team tooltipped" data-position="top" data-tooltip="${standing.team.name}" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+                  <img src="${team_badge}" class="logo-team tooltipped" data-position="top" data-tooltip="${standing.team.name}" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
                 </td>
                 <td>
                   <a href="#team&#id=${standing.team.id}" id="btn-rl_">${standing.team.name}</a>
@@ -84,7 +84,7 @@ function getStandings() {
       <tr>
         <td class="center-align">${standing.position}</td>
         <td class="center-align">
-          <img src="${team_badge}" class="logo-team" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+          <img src="${team_badge}" class="logo-team" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
         </td>
         <td>
           <a href="#team&#id=${standing.team.id}" id="btn-rl_">${standing.team.name}</a>
@@ -121,7 +121,7 @@ function getTeamById(id) {
           teamHTML = `
               <div class="card-img">
                 <div class="circle z-depth-1 white team_">
-                  <img src="${team_badge}" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+                  <img src="${team_badge}" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
                 </div>
               </div>
               <div class="card-desc">
@@ -183,7 +183,7 @@ function getTeamById(id) {
       teamHTML = `
           <div class="card-img">
             <div class="circle z-depth-1 white team_">
-              <img src="${team_badge}" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+              <img src="${team_badge}" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
             </div>
           </div>
           <div class="card-desc">
@@ -248,7 +248,7 @@ function getTeams() {
                 <div class="card-panel hoverable">
                   <div class="card-img">
                     <div class="circle z-depth-1 white team_">
-                      <img src="${data.crestUrl}" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+                      <img src="${data.crestUrl}" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
                     </div>
                   </div>
                   <div class="card-desc">
@@ -302,7 +302,7 @@ function getTeams() {
             <div class="card-panel hoverable">
               <div class="card-img">
                 <div class="circle z-depth-1 white team_">
-                  <img src="${data.crestUrl}" onerror="this.onerror=null;this.src='../bola/assets/img/flag.png';">
+                  <img src="${data.crestUrl}" onerror="this.onerror=null;this.src='../assets/img/flag.png';">
                 </div>
               </div>
               <div class="card-desc">
